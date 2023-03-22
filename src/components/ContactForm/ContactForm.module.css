@@ -3,7 +3,6 @@
 }
 
 .inputLabel {
-  /* display: block; */
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -15,6 +14,7 @@
   border: 1px solid #ccc;
   outline: none;
 }
+
 .inputLabel input:focus {
   border-color: #1f1fac;
 }
