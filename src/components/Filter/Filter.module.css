@@ -2,10 +2,14 @@
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .filterContainer input {
-  width: 80%;
+  max-width: 500px;
+  width: 100%;
   padding: 10px 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -13,5 +17,5 @@
 }
 
 .filterContainer input:focus {
-  border: 1px solid #1f1fac;
+  border: 1px solid #2a951c;
 }

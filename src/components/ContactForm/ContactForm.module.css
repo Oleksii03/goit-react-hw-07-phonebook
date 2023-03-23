@@ -1,13 +1,17 @@
 .ContactForm {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.inputLabel {
-  margin-right: 10px;
-  margin-left: 10px;
+.inputLabel:first-child {
+  margin-left: 17px;
 }
 
 .inputLabel input {
+  max-width: 500px;
+  width: 100%;
   margin-left: 10px;
   padding: 10px 20px;
   border-radius: 5px;
@@ -16,22 +20,22 @@
 }
 
 .inputLabel input:focus {
-  border-color: #1f1fac;
+  border-color: #276719;
 }
 
 .formButton {
+  align-self: center;
   padding: 10px 20px;
-  border: 1px solid #1f1fac;
+  border: none;
   border-radius: 5px;
-  background-color: #4242e5;
+  background-color: #24621aad;
   color: aliceblue;
   cursor: pointer;
-  min-width: 120px;
+  max-width: 150px;
   font-size: 16px;
-
   transition: background-color 0.2s ease-in-out;
 }
 
 .formButton:hover {
-  background-color: #2e2e9a;
+  background-color: #24621a;
 }
