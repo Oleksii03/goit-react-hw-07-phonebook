@@ -32,7 +32,7 @@ const contactsSlice = createSlice({
           ...state,
           isLoading: false,
           error: null,
-          items: action.payload,
+          items: [...action.payload.sort((a, b) => b.id - a.id)],
         };
       })
       .addCase(fetchContacts.rejected, handleRejected)
